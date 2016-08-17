@@ -2,9 +2,9 @@ require "formula"
 
 class Gqrx < Formula
   homepage "http://gqrx.dk"
-  url "https://github.com/csete/gqrx/archive/v2.4.tar.gz"
-  sha256 "4c561083b3da9423c017ea4fbe7e12fedb0ba7c2065c17b8ac8a0f5403a5da9b"
- 
+  url "https://github.com/csete/gqrx/archive/v2.5.tar.gz"
+  sha256 "5134e5cf66e5133c12801547decad4b90dd7070a0283dd7b04f3ac0c69dd3b4e"
+
   head "https://github.com/csete/gqrx.git"
 
   depends_on "pkg-config" => :build
